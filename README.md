@@ -24,6 +24,7 @@ addon | version | maintainers | summary
 [base_maintenance](base_maintenance/) | 16.0.1.0.2 |  | Base Maintenance
 [base_maintenance_config](base_maintenance_config/) | 16.0.1.0.0 |  | Provides general settings for the Maintenance App
 [base_maintenance_group](base_maintenance_group/) | 16.0.1.0.0 |  | Provides base access groups for the Maintenance App
+[hr_maintenance_security](hr_maintenance_security/) | 16.0.1.0.0 |  | HR Maintenance Security
 [maintenance_account](maintenance_account/) | 16.0.1.1.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Maintenance Account
 [maintenance_equipment_category_hierarchy](maintenance_equipment_category_hierarchy/) | 16.0.1.0.0 |  | Equipment Categories Hierarchy
 [maintenance_equipment_certification](maintenance_equipment_certification/) | 16.0.1.0.0 | <a href='https://github.com/cubells'><img src='https://github.com/cubells.png' width='32' height='32' style='border-radius:50%;' alt='cubells'/></a> | Add to store certifications associated with a equipment.
