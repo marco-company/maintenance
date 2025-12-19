@@ -31,21 +31,30 @@ class MaintenanceRequest(models.Model):
     )
 
     currency_id = fields.Many2one(
-        related="company_id.currency_id",
+        "res.currency",
+        compute="_compute_currency_id",
         store=True,
         readonly=True,
     )
 
+    # The company is not required so we have to ensure that a currency is stablished
+    @api.depends("company_id.currency_id")
+    def _compute_currency_id(self):
+        for record in self:
+            record.currency_id = (
+                record.company_id.currency_id.id or self.env.company.currency_id.id
+            )
+
     @api.depends(
         "purchase_order_ids.amount_total",
         "purchase_order_ids.currency_id",
-        "company_id.currency_id",
+        "currency_id",
         "purchase_order_ids.state",
     )
     def _compute_total_purchase_amount(self):
         date = self.env.context.get("actual_date") or fields.Date.today()
         for record in self:
-            company_currency = record.company_id.currency_id
+            company_currency = record.currency_id
             total = sum(
                 po.currency_id._convert(
                     po.amount_total,
