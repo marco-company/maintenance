@@ -24,10 +24,11 @@ addon | version | maintainers | summary
 [base_maintenance](base_maintenance/) | 16.0.1.0.2 |  | Base Maintenance
 [base_maintenance_config](base_maintenance_config/) | 16.0.1.0.0 |  | Provides general settings for the Maintenance App
 [base_maintenance_group](base_maintenance_group/) | 16.0.1.0.0 |  | Provides base access groups for the Maintenance App
+[hr_maintenance_security](hr_maintenance_security/) | 16.0.1.0.0 |  | HR Maintenance Security
 [maintenance_account](maintenance_account/) | 16.0.1.1.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Maintenance Account
 [maintenance_equipment_category_hierarchy](maintenance_equipment_category_hierarchy/) | 16.0.1.0.0 |  | Equipment Categories Hierarchy
 [maintenance_equipment_certification](maintenance_equipment_certification/) | 16.0.1.0.0 | <a href='https://github.com/cubells'><img src='https://github.com/cubells.png' width='32' height='32' style='border-radius:50%;' alt='cubells'/></a> | Add to store certifications associated with a equipment.
-[maintenance_equipment_contract](maintenance_equipment_contract/) | 16.0.1.0.0 |  | Manage equipment contracts
+[maintenance_equipment_contract](maintenance_equipment_contract/) | 16.0.1.0.1 |  | Manage equipment contracts
 [maintenance_equipment_hierarchy](maintenance_equipment_hierarchy/) | 16.0.1.1.0 | <a href='https://github.com/dalonsod'><img src='https://github.com/dalonsod.png' width='32' height='32' style='border-radius:50%;' alt='dalonsod'/></a> | Manage equipment hierarchy
 [maintenance_equipment_image](maintenance_equipment_image/) | 16.0.1.0.0 | <a href='https://github.com/pedrocasi'><img src='https://github.com/pedrocasi.png' width='32' height='32' style='border-radius:50%;' alt='pedrocasi'/></a> | Adds images to equipment.
 [maintenance_equipment_sequence](maintenance_equipment_sequence/) | 16.0.1.0.2 | <a href='https://github.com/AdriaGForgeFlow'><img src='https://github.com/AdriaGForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='AdriaGForgeFlow'/></a> | Adds sequence to maintenance equipment defined in the equipment's category
@@ -41,11 +42,11 @@ addon | version | maintainers | summary
 [maintenance_project](maintenance_project/) | 16.0.2.0.0 |  | Adds projects to maintenance equipments and requests
 [maintenance_purchase](maintenance_purchase/) | 16.0.1.0.0 |  | Create Equipments with purchases
 [maintenance_remote](maintenance_remote/) | 16.0.1.0.0 |  | Define remote on maintenance request
-[maintenance_request_purchase](maintenance_request_purchase/) | 16.0.1.1.0 |  | Allows you to link PO with maintenance requests
+[maintenance_request_purchase](maintenance_request_purchase/) | 16.0.1.1.1 |  | Allows you to link PO with maintenance requests
 [maintenance_request_repair](maintenance_request_repair/) | 16.0.1.0.0 |  | This is a bridge module between Maintenance and Repair
 [maintenance_request_sequence](maintenance_request_sequence/) | 16.0.1.0.1 |  | Adds sequence to maintenance requests
 [maintenance_request_stage_transition](maintenance_request_stage_transition/) | 16.0.1.0.0 | <a href='https://github.com/etobella'><img src='https://github.com/etobella.png' width='32' height='32' style='border-radius:50%;' alt='etobella'/></a> | Manage transition visibility and management between stages
-[maintenance_security](maintenance_security/) | 16.0.2.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Maintenance Security
+[maintenance_security](maintenance_security/) | 16.0.2.0.1 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Maintenance Security
 [maintenance_team_hierarchy](maintenance_team_hierarchy/) | 16.0.1.0.0 |  | Create hierarchies on teams
 [maintenance_timesheet](maintenance_timesheet/) | 16.0.2.1.0 |  | Adds timesheets to maintenance requests
 [maintenance_timesheet_time_control](maintenance_timesheet_time_control/) | 16.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> | Maintenance Timesheets Timesheet Time Control
